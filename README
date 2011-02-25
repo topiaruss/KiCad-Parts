@@ -1,0 +1,8 @@
+Russ Ferriday, 2011-02-24
+russf@topia.com
+
+Devices used for XMOS designs, including XS1-L1 TQFP64 with addition of XMOS 
+recommended GND pad as pin 65.
+
+For the TQFP, 0.3mm vias from each of the nine sub-pads into a GND 
+plane are recommended.
