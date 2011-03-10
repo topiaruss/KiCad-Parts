@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  Wed 09 Mar 2011 09:11:47 PM PST
+#
+$MODULE PIN_ARRAY_10X2
+Li PIN_ARRAY_10X2
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+$EndMODULE
+#
+$EndLIBDOC
