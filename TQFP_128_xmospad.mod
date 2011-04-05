@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 08 Mar 2011 04:54:59 PM PST
+PCBNEW-LibModule-V1  Tue 05 Apr 2011 10:09:09 AM PDT
 $INDEX
 XMOS-TQFP-128-4.8mm-Pad
 $EndINDEX
@@ -1433,7 +1433,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 0
-.SolderPasteRatio -0.5
 $EndPAD
 $EndMODULE  XMOS-TQFP-128-4.8mm-Pad
 $EndLIBRARY
