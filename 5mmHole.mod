@@ -1,7 +1,9 @@
-PCBNEW-LibModule-V1  Sun 13 Mar 2011 12:53:39 AM PST
+PCBNEW-LibModule-V1  Fri 22 Apr 2011 07:31:16 PM PDT
 $INDEX
 5mmHole
 3mmHole
+1mmHole
+1.1mmHole
 $EndINDEX
 $MODULE
 Po 0 0 0 15 4D7C821B 4D7C813B ~~
@@ -43,7 +45,7 @@ $MODULE 3mmHole
 Po 0 0 0 15 4D7C860A 00000000 ~~
 Li 3mmHole
 Sc 00000000
-AR 
+AR
 Op 0 0 0
 T0 0 0 600 600 0 120 N V 21 N""
 T1 0 0 600 600 0 120 N V 21 N""
@@ -55,4 +57,36 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE  3mmHole
+$MODULE 1.1mmHole
+Po 0 0 0 15 4DB23929 00000000 ~~
+Li 1.1mmHole
+Sc 00000000
+AR 3mmHole
+Op 0 0 0
+T0 0 0 600 600 0 120 N V 21 N"Ref**"
+T1 0 0 600 600 0 120 N V 21 N"Val**"
+$PAD
+Sh "1" C 553 553 0 0 0
+Dr 433 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1.1mmHole
+$MODULE 1mmHole
+Po 0 0 0 15 4DB239EF 00000000 ~~
+Li 1mmHole
+Sc 00000000
+AR 3mmHole
+Op 0 0 0
+T0 0 0 600 600 0 120 N V 21 N"Ref**"
+T1 0 0 600 600 0 120 N V 21 N"Val**"
+$PAD
+Sh "1" C 514 514 0 0 0
+Dr 394 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1mmHole
 $EndLIBRARY
